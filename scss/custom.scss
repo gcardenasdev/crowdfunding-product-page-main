@@ -35,12 +35,17 @@ header {
 
 .section-one {
     position: relative;
-    top: 200px;
-    padding: 15px 70px;
+    top: 300px;
+    padding: 20px 40px 65px;
     text-align: center;
     border-radius: 15px;
     margin: 0 auto;
     width: 95%;
+
+    img {
+        position: relative;
+        top: -50px;
+    }
 
     h1 {
         font-size: 1.75rem;
@@ -49,13 +54,13 @@ header {
     }
 
     p {
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
 
-    img {
-        position: relative;
-        top: -50px;
+    button {
+        font-weight: 700;
     }
+
 
 }
 
@@ -75,6 +80,9 @@ $theme-colors: (
   "secondary": $dark-gray
   
 );
+
+$btn-padding-x-lg: 4rem;
+$btn-padding-y-lg: 1rem;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";

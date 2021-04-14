@@ -19,12 +19,17 @@ header {
 
 .section-one {
   position: relative;
-  top: 200px;
-  padding: 15px 70px;
+  top: 300px;
+  padding: 20px 40px 65px;
   text-align: center;
   border-radius: 15px;
   margin: 0 auto;
   width: 95%;
+}
+
+.section-one img {
+  position: relative;
+  top: -50px;
 }
 
 .section-one h1 {
@@ -34,12 +39,11 @@ header {
 }
 
 .section-one p {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
-.section-one img {
-  position: relative;
-  top: -50px;
+.section-one button {
+  font-weight: 700;
 }
 
 /*!
@@ -3411,7 +3415,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-lg, .btn-group-lg > .btn {
-  padding: 0.5rem 1rem;
+  padding: 1rem 4rem;
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem;
@@ -3804,8 +3808,8 @@ input[type="button"].btn-block {
 }
 
 .btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 
 .btn-group-vertical {
