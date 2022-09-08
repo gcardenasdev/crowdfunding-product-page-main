@@ -1,0 +1,137 @@
+:root
+{
+    --Moderate-cyan: hsl(176, 50%, 47%);
+    --Dark-cyan: hsl(176, 72%, 28%);
+    --Black: hsl(0, 0%, 0%);
+    --Dark-gray: hsl(0, 0%, 48%);
+    --Beige: hsl(0, 0%, 95%);
+
+    --font-family: 'Commissioner', sans-serif;
+}
+
+body{
+    background-color: var(--Beige);
+    font-family: var(--font-family);
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), 
+    url("images/image-hero-mobile.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 300px;
+    
+}
+
+.top-section-box {
+    position: relative;
+    top: -50px;
+    padding-bottom: 0;
+}
+
+.mastercraft-logo{
+    position: relative;
+    top: -50px;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+p {
+    font-size: 0.875rem;
+    color: var(--Dark-gray);
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+.bold-text {
+    font-weight: 700;
+    color: var(--Black);
+}
+.cyan-text {
+    color: var(--Moderate-cyan);
+    font-weight: 500;
+}
+
+.large-text {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--Black);
+}
+
+
+.btn-bd-primary {
+    --bs-btn-padding-x: 2rem;
+    --bs-btn-padding-y: 0.75rem;
+    --bs-btn-font-weight: 500;
+    --bs-btn-font-size: 0.875rem;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--Moderate-cyan);
+    --bs-btn-border-color: var(--Moderate-cyan);
+    --bs-btn-border-radius: 50rem;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--Dark-cyan);
+    --bs-btn-hover-border-color: var(--Dark-cyan);
+    --bs-btn-focus-shadow-rgb: var(--Dark-cyan);
+    --bs-btn-active-color: var(--Dark-cyan);
+    --bs-btn-active-bg: var(--Dark-cyan);
+    --bs-btn-active-border-color: var(--Dark-cyan);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--Dark-gray);
+    --bs-btn-disabled-border-color: var(--Dark-gray);
+    --bs-btn-disabled-opacity: .4;
+}
+
+.dropdown-menu {
+    --bs-dropdown-min-width: 21rem;
+    --bs-dropdown-spacer: 2rem;
+    --bs-dropdown-item-padding-x: 1.5rem;
+    --bs-dropdown-item-padding-y: 0.75rem;
+    --bs-dropdown-link-active-bg: var(--Moderate-cyan);
+    
+}
+
+.dropdown-item {
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.navbar-nav {
+    display: none;
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (min-width: 768px) {
+
+    .container-sm {
+        max-width: 45.625rem;
+    }
+
+    header {
+        
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), 
+        url("../images/image-hero-desktop.jpg");
+    }
+    
+    .dropdown {
+        display: none;
+    }
+
+    .navbar-nav{
+        display: flex;
+    }
+ }
